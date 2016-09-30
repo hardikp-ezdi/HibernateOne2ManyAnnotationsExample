@@ -21,6 +21,7 @@ public class StockManager {
     public static void main(String[] args) {
         // loads configuration and mappings
      System.out.println("Hello");
+     System.out.println("Hardik");
      
         Configuration configuration = new Configuration().configure();
         ServiceRegistryBuilder registry = new ServiceRegistryBuilder();
