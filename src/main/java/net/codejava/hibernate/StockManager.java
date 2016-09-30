@@ -20,6 +20,8 @@ public class StockManager {
  
     public static void main(String[] args) {
         // loads configuration and mappings
+     System.out.println("Hello");
+     
         Configuration configuration = new Configuration().configure();
         ServiceRegistryBuilder registry = new ServiceRegistryBuilder();
         registry.applySettings(configuration.getProperties());
